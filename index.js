@@ -61,14 +61,21 @@ function increment() {
     //return count;
     console.log(count);
 }
-saveEl= document.getElementById('save-btn');
+let saveEl = document.getElementById('save-el');
+saveBtn= document.getElementById('save-btn');
+
 function save() {
-    alert("logout and saved as "+ count);
+    //alert("logout and saved as "+ count);
 
-    countEl.innerText=count;
-    alert(count);
+    //countEl.innerText=count;
+    //alert(count);
+    let prevEl =' '+count + " - ";
+    saveEl.textContent+=prevEl;
+    console.log(count);
+    count = 0;
+    countEl.textContent = count;
 }
-
+// pre
 let welcomeEl = document.getElementById('welcome-el');
 
 let name = "Mahadi !";
