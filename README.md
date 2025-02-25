@@ -1,2 +1,2 @@
 # scrimcount_js
-Passenger Counting App
+This is a simple train counting app built from html, css and javascript! 
