@@ -61,3 +61,19 @@ function increment() {
     //return count;
     console.log(count);
 }
+saveEl= document.getElementById('save-btn');
+function save() {
+    alert("logout and saved as "+ count);
+
+    countEl.innerText=count;
+    alert(count);
+}
+
+let welcomeEl = document.getElementById('welcome-el');
+
+let name = "Mahadi !";
+let greeting = "Welcome to the app, ";
+
+welcomeEl.innerText = greeting+ name;
+welcomeEl.innerText+="🤖"
+
